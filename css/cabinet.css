@@ -1,0 +1,51 @@
+.cabinet {
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.user-info {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.user-pic {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}
+
+.user-details {
+
+}
+
+.test-list {
+    position: relative;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+.quit {
+    float: inherit;
+    background-color: salmon;
+
+}
+
+.quit:active {
+    background-color: red;
+}
+
+.category:active {
+    background-color: lightgreen;
+    padding: 10px;
+    font-size: smaller;
+}
+
+h1 {
+    padding-bottom: 5px;
+}

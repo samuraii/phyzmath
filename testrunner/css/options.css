@@ -1,0 +1,40 @@
+input.option {
+    width: auto;
+    max-width: 300px;
+}
+
+fieldset {
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    width: auto;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.radio-toolbar {
+    text-align: center;
+}
+
+span {
+    padding: 3px;
+    display: block;
+    text-align: left;
+}
+
+
+.radio-toolbar input[type="radio"] {
+    display:none;
+}
+
+.radio-toolbar label {
+    display:block;
+    padding: 10px;
+    border: 1px black solid;
+    margin: 2px;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: lightgreen;
+    border: 1px black solid;
+}

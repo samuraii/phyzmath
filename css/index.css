@@ -1,0 +1,42 @@
+.face {
+    height: 90px;
+    width: 90px;
+}
+
+.face:hover {
+    background-color: cadetblue;
+}
+
+label > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    display: none;
+}
+
+label > input + img{ /* IMAGE STYLES */
+    cursor: pointer;
+}
+
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+    background-color: cadetblue;
+}
+
+.welcome {
+    height: 300px;
+    max-width: 350px;
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+}
+
+.welcome h1, p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+form {
+    display: inline-block;
+}
+

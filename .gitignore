@@ -1,0 +1,12 @@
+
+.idea/
+txt/logs/devices.txt
+txt/logs/log_users.txt
+.ftp-settings.json
+helpers/txt/logs/devices.txt
+helpers/txt/logs/log_users.txt
+.vscode
+.htaccess
+db/config.php
+.DS_Store
+/captcha.js

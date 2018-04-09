@@ -1,0 +1,84 @@
+.wrapper {
+    font-size: 20px;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 332px;
+}
+
+.task-place {
+    text-align: center;
+    position: relative;
+    padding: 5px;
+}
+
+.info {
+    min-width: 25px;
+    text-align: center;
+    display: inline-block;
+    color: blue;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.stat {
+    margin-top: 5px;
+}
+
+.current-task {
+    display: flex;
+    background-color: lightskyblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.num, .operand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    font-size: 40px;
+}
+
+div.answers {
+    display: inline-block;
+    width: 100%;
+}
+
+.answers > .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: rgb(128, 182, 102);
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #006599;
+    transition: all .01s linear;
+}
+
+.a:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+  background-color: rgb(128, 200, 102);
+}
+
+.settings {
+    position: relative;
+    display: block;
+    height: 30px;
+    background-color: lightskyblue;
+    text-align: center;
+    border-radius: 10px;
+}

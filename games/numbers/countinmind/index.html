@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Numbers</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="field">
+            <div class="game">
+                <div class="task-place">
+                    Прошлый сделан за: <span class="info" id="timer">---</span> мс.
+                </div>
+
+                <div class="current-task">
+                    <div class="num" id="num1"></div>
+                    <div class="operand" id="operand">+</div>
+                    <div class="num" id="num2"></div>
+                </div>
+
+                <div class="answers" id="answers">
+                    <p class="a"></p>
+                    <p class="a"></p>
+                    <p class="a"></p>
+                    <p class="a"></p>
+                    <p class="a"></p>
+                    <p class="a"></p>
+                </div>
+
+                <div id="settings" class="settings">
+                    <select name="level">
+                        <option value="1">Уровень 1</option>
+                        <option value="2">Уровень 2</option>
+                        <option value="3">Уровень 3</option>
+                    </select>
+                </div>
+
+                <div class="stat">
+                    <div>Всего сыграно: <span class="info" id="totalPlayed"></span></div>
+                    <div>Ср. время ответа: <span class="info" id="avgTime"></span>мс.</div>
+                    <div>Всего ошибок: <span class="info" id="mistakes"></span></div>
+                    <div>Эффективность: <span class="info" id="eff">Непонятно</span></div>
+                </div>
+            </div><!-- game -->
+        </div><!-- field -->
+    </div><!-- wrapper -->
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>
